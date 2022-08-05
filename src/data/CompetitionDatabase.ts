@@ -2,7 +2,7 @@ import { Competition } from "../model/Competition";
 import { UpdateStatusInputDTO } from "../types/DTO/UpdateStatusDTO";
 import { BaseDatabase } from "./BaseDatabase";
 
-export class CompetitionData extends BaseDatabase {
+export class CompetitionDatabase extends BaseDatabase {
 
     protected TABLE_NAME: string = "competition";
 
