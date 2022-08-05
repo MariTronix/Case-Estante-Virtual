@@ -48,4 +48,4 @@ export class ResultController {
       res.status(statusCode || 400).send({ message });
     }
   };
-} 
+}
