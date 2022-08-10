@@ -6,6 +6,7 @@ export interface ResultInputDTO {
 };
 
 export interface ResultInputMockDTO {
+    id: string,
     competition: string,
     athlete: string,
     value: number;
